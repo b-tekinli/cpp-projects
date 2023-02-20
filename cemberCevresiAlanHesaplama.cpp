@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    float pi = 3.14;
+    const float pi = 3.14;
     int r;
     
     cout << "Cember cevresi hesaplamak icin yaricap giriniz: ";
