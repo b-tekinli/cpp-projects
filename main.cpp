@@ -15,6 +15,10 @@ int main() {
     endl --> newline atar. 
     \n ile arasında bir fark yoktur.
     */ 
+
+
+    string mesaj = "Hello World!\n";
+    cout << mesaj;
     
     return (0);
 }
