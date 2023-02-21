@@ -8,6 +8,7 @@ int main() {
     cout << a << " sayisinin karekoku: " << sqrt(a) << endl;
     cout << a << " sayisinin ussu: " << pow(a, 2) << endl;
 
+    
     // sqrt     --> karekok alir.
     // pow      --> us alir.
     // exit     --> programi sonlandirir ve kendisinden sonra kod yazilse bile programi sonlandiracagi icin onlari okumaz.
