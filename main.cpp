@@ -25,5 +25,6 @@ int main() {
     string mesaj = "Hello World!\n";
     cout << mesaj;
     
+    
     return (0);
 }
