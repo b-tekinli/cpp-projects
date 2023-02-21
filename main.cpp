@@ -4,13 +4,17 @@ using namespace std;    // std ifadesini surekli kullanmamak icin
 int main() {
     int num;
 
-    
+
+
+    // cout --> console output'tan gelir.
+    cout << "Sayi giriniz: ";                // ekrana yazdirmayi saglar.
+
+
     // cin --> console input'tan gelir.
     cin >> num;         // klavyeden veri okumayi saglar.
 
     
-    // cout --> console output'tan gelir.
-    cout << "Girilen sayi: " << num << endl;        // ekrana yazdirmayi saglar.
+    cout << "Girilen sayi: " << num << endl;
     
     
     /*
@@ -24,4 +28,3 @@ int main() {
     
     return (0);
 }
-
