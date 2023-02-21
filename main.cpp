@@ -4,6 +4,7 @@ using namespace std;    // std ifadesini surekli kullanmamak icin
 int main() {
     int num;
 
+    
     // cin --> console input'tan gelir.
     cin >> num;         // klavyeden veri okumayi saglar.
 
