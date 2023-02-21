@@ -14,7 +14,7 @@ int main() {
     // exit     --> programi sonlandirir ve kendisinden sonra kod yazilse bile programi sonlandiracagi icin onlari okumaz.
     // rand     --> rastgele sayilar uretir.
     
-    // 1-90 arasinda 5 tane sayi uretelim.
+    // 1 - 90 arasinda 5 tane sayi uretelim.
     
     cout << "Sayilar: ";
     int i = 1;
