@@ -12,6 +12,7 @@ int main() {
     // sqrt     --> karekok alir.
     // pow      --> us alir.
     // exit     --> programi sonlandirir ve kendisinden sonra kod yazilse bile programi sonlandiracagi icin onlari okumaz.
+    // rand     --> rastgele sayilar uretir.
 
     
     exit(0);
