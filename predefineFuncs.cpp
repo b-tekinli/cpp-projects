@@ -13,6 +13,7 @@ int main() {
     // pow      --> us alir.
     // exit     --> programi sonlandirir ve kendisinden sonra kod yazilse bile programi sonlandiracagi icin onlari okumaz.
 
+    
     exit(0);
 
     cout << "sonlandirildi !" << endl;
