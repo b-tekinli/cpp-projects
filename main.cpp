@@ -7,6 +7,7 @@ int main() {
     // cin --> console input'tan gelir.
     cin >> num;         // klavyeden veri okumayi saglar.
 
+    
     // cout --> console output'tan gelir.
     cout << "Girilen sayi: " << num << endl;        // ekrana yazdirmayi saglar.
     
