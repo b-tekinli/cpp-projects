@@ -28,7 +28,7 @@ int main() {
 
     double result = examPoint1 + examPoint2 + finalExamPoint;
 
-    cout << "Toplam notunuz: " << result << endl;
+    cout << "Donem sonu notunuz: " << result << endl;
 
     return (0);
 }
