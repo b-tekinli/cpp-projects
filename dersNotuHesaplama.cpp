@@ -9,21 +9,21 @@ int main() {
     cout << "1. Vize notunuzu giriniz: ";
     cin >> exam1;
 
-    float examPoint1 = exam1 * 30 / 100;
+    float examPoint1 = exam1 * 0.3;
     cout << "1. Vizeden gelen not: " << examPoint1 << endl;
 
     
     cout << "2. Vize notunuzu giriniz: ";
     cin >> exam2;
 
-    float examPoint2 = exam2 * 30 / 100;
+    float examPoint2 = exam2 * 0.3;
     cout << "2. Vizeden gelen not: " << examPoint2 << endl;
 
 
     cout << "Final notunuzu giriniz: ";
     cin >> finalExam;
 
-    float finalExamPoint = finalExam * 40 / 100;
+    float finalExamPoint = finalExam * 0.4;
     cout << "Final notunuzdan gelen not: " << finalExamPoint << endl;
 
     double result = examPoint1 + examPoint2 + finalExamPoint;
