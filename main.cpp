@@ -5,7 +5,6 @@ int main() {
     int num;
 
 
-
     // cout --> console output'tan gelir.
     cout << "Sayi giriniz: ";                // ekrana yazdirmayi saglar.
 
