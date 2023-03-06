@@ -9,7 +9,7 @@ namespace myNamespace {
     }
 }
 
-using namespace myNamespace;        // burada myNamespace'i import etmezsek main fonksiyonu icinde a ve myFUnction fonk. kullanamayız.
+using namespace myNamespace;        // burada myNamespace'i import etmezsek main fonksiyonu icinde a ve myFunction fonk. kullanamayız.
 
 int main() {
     cout << a << endl;
