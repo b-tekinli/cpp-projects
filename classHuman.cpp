@@ -2,7 +2,7 @@
 using namespace std;
 
 class insan {
-    public:
+    public:     // her yerden erisilebilir
         string isim;
         int yas;
         string cinsiyet;
