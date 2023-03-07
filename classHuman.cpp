@@ -2,6 +2,10 @@
 using namespace std;
 
 class insan {
+    // private:    // tum degiskenler private, fonk. ise public olmalıdır. private degiskenlere erisebilmek icin encapsulation konusunu ele almamız gerekir.
+    //     string isim;
+    //     int yas;
+    //     string cinsiyet;
     public:     // her yerden erisilebilir
         string isim;
         int yas;
