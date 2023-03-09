@@ -21,6 +21,10 @@ class Pikacu : public Pokemon {     // pokemon sınıfını inherit aldık.
         Pikacu(string name, string attack) : Pokemon(name, attack) {    // base class a parametre atadık
             
         }
+        // override
+        void saldir() {
+            cout << "Elektrik saldirisi !" << endl;
+        }
 };
 
 
@@ -28,6 +32,10 @@ class Charmander : public Pokemon {
     public:
         Charmander(string name, string attack) : Pokemon(name, attack) {
             
+        }
+        // override
+        void saldir() {
+            cout << "Alev firtinasi saldirisi !" << endl;
         }
 };
 
