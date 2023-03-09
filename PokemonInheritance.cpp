@@ -16,11 +16,16 @@ class Pokemon {
 };
 
 
-class Pikacu : public Pokemon {     // pokemon sınıfını inherit aldık.
+class Pikacu : private Pokemon {     // pokemon sınıfını inherit aldık.
     public:
         Pikacu(string name, string attack) : Pokemon(name, attack) {    // base class a parametre atadık
             
         }
+
+        void konus() {
+            Pokemon::isimSoyle();
+        }
+
         // override
         void saldir() {
             cout << "Elektrik saldirisi !" << endl;
@@ -44,7 +49,7 @@ int main() {
     Pikacu pikacu("Pikacu", "Yildirim saldirisi !");
 
     cout << "Seni sectim Pikacu: ";
-    pikacu.isimSoyle();
+    pikacu.konus();
     pikacu.saldir();
 
 
