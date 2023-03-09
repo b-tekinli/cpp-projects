@@ -22,7 +22,8 @@ int main() {
     cout << "program hala calisiyor" << endl;
 
     // 22. satırı eklediğim için şimdi ekranda önce constructor çalışır sonra 22. satır çalışır sonra da destructor çalışır.
-
+    
+    // destructor çok fazla kullanılmaz ama özellikle bellek yönetimi ya da kaynak ataması gibi işlemler yapacağımız sırada kullanmalıyız.
 
     return (0);
 }
