@@ -6,7 +6,7 @@ class Bilgisayar {
         string marka;
         int yil;
         string islemci;
-        int ram;
+        int ramGB;
         double fiyat;
     public:
         void setBrand(string brand);
@@ -23,23 +23,23 @@ class Bilgisayar {
 };
 
 void Bilgisayar::setBrand(string brand) {
-    brand = marka;
+    marka = brand;
 }
 
 void Bilgisayar::setYear(int year) {
-    year = yil;
+    yil = year;
 }
 
 void Bilgisayar::setCPU(string cpu) {
-    cpu = islemci;
+    islemci = cpu;
 }
 
 void Bilgisayar::setRAM(int ram) {
-    ram = ram;
+    ramGB = ram;
 }
 
 void Bilgisayar::setPrice(double price) {
-    price = fiyat;
+    fiyat = price;
 }
 
 string Bilgisayar::getBrand() {
@@ -58,26 +58,35 @@ void Bilgisayar::bilgisayarBilgileri() {
     cout << "Marka: " << marka << endl;
     cout << "Yil: " << yil << endl;
     cout << "Islemci: " << islemci << endl;
-    cout << "Ram: " << ram << endl;
+    cout << "Ram: " << ramGB << endl;
     cout << "Fiyat: " << fiyat << endl;
     cout << "**************" << endl;
 }
 
 int main() {
-    Bilgisayar asus, mac, lenovo;
+    Bilgisayar asus, mac;
 
     asus.setBrand("asus");
-    asus.setYear(22);
+    asus.setYear(2022);
+    asus.setPrice(9.540);
     asus.setCPU("amd ryzen 7");
     asus.setRAM(16);
-    asus.setPrice(9.540);
 
     cout << "Marka: " << asus.getBrand() << endl;
     cout << "Yil: " << asus.getYear() << endl;
     cout << "Fiyat: " << asus.getPrice() << endl;
 
-
     asus.bilgisayarBilgileri();
+
+
+
+    mac.setBrand("mac");
+    mac.setYear(2017);
+    mac.setPrice(27.540);
+
+    cout << "Marka: " << mac.getBrand() << endl;
+    cout << "Yil: " << mac.getYear() << endl;
+    cout << "Fiyat: " << mac.getPrice() << endl;
 
 
     return (0);
