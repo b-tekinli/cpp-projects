@@ -12,6 +12,7 @@ class Balik {
         }
 
         virtual void yuz() { cout << "Balik yuzuyor.." << endl; }
+        // virtual void yuz() = 0; --> pure virtual func
 };
 
 
