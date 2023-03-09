@@ -8,7 +8,7 @@ class Insan {
         friend void yasSoyle(Insan obj);    // friend ile private degiskene dısardan erisebiliriz.
 
     public:
-        Insan(string name, int age) {
+        Insan(string name, int age) {       // constructor
             ad = name;
             yas = age;
         }
