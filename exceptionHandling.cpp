@@ -1,9 +1,15 @@
 #include <iostream>
 using namespace std;
 
+class exception_class {
+
+};
+
 int divide(int bolunen, int bolen) {
     if(bolen == 0) {
-        throw 1;
+        // throw 1;
+        // throw string("zero_input");
+        throw exception_class();
     }
     return bolunen / bolen;
 }
@@ -24,7 +30,7 @@ int main() {
        sonuc = divide(bolunen, bolen);
         cout << sonuc;
     }
-    catch(int e) {
+    catch(exception_class e) {
         cout << "Yanlis giris yaptiniz. 0 girilemez. \n";
     }
 
