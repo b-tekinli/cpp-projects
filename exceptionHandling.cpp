@@ -9,7 +9,8 @@ int divide(int bolunen, int bolen) {
     if(bolen == 0) {
         // throw 1;
         // throw string("zero_input");
-        throw exception_class();
+        // throw exception_class();
+        throw 1.5;
     }
     return bolunen / bolen;
 }
@@ -32,6 +33,18 @@ int main() {
     }
     catch(exception_class e) {
         cout << "Yanlis giris yaptiniz. 0 girilemez. \n";
+    }
+    catch(int e) {
+        cout << "int catch block. \n";
+    }
+    catch(double e) {
+        cout << "double catch block. \n";
+    }
+    catch(string e) {
+        cout << "string catch block. \n";
+    }
+    catch(...) {
+        cout << "default catch block. \n";
     }
 
     return (0);
